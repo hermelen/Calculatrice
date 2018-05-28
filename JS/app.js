@@ -22,9 +22,5 @@ for (var i = 0; i < btn.length; i++) {
   });
 }
 equal.addEventListener('click', function() {
-  if (p.innerText.indexOf("+")) {
-    console.log(p.innerText.indexOf("+"));
-
-  }
-  console.log("gagné");
+  p.innerText = eval(p.innerText);
 })
