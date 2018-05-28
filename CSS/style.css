@@ -1,0 +1,36 @@
+header {
+  padding-top: 250px;
+}
+
+main, header {
+  width: 240px;
+  margin: auto;
+}
+
+p {
+  background-color: #f0f0f0;
+  color: #5d5d5d;
+  border: 1px groove #9c9c9c;
+  border-radius: 2px;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f0f0f0;
+  color: black;
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+  border: 1px groove #9c9c9c;
+  border-radius: 2px;
+}
+
+#equal {
+  width: 120px;
+  height: 60px;
+}
